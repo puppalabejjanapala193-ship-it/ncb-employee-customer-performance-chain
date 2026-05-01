@@ -1,0 +1,126 @@
+{
+  "n_branches": 85,
+  "missing_total": 0,
+  "size_summary": {
+    "eeng": {
+      "Small": 3.387,
+      "Medium": 3.219,
+      "Large": 3.237
+    },
+    "cserq": {
+      "Small": 3.324,
+      "Medium": 3.332,
+      "Large": 3.373
+    },
+    "cloy": {
+      "Small": 3.787,
+      "Medium": 3.742,
+      "Large": 3.791
+    },
+    "prod": {
+      "Small": 294.103,
+      "Medium": 290.893,
+      "Large": 307.5
+    },
+    "teltr": {
+      "Small": 4246.552,
+      "Medium": 4019.0,
+      "Large": 3984.75
+    }
+  },
+  "correlations": {
+    "employee_index_vs_cserq": 0.164,
+    "cserq_vs_cloy": 0.904,
+    "cloy_vs_prod": 0.087,
+    "teltr_vs_prod": 0.259
+  },
+  "cserq_models": {
+    "linear": {
+      "rmse": 0.196,
+      "mae": 0.155,
+      "r2": 0.176
+    },
+    "random_forest": {
+      "rmse": 0.2,
+      "mae": 0.152,
+      "r2": 0.148
+    },
+    "top_coefficients": [
+      [
+        "equal",
+        0.108
+      ],
+      [
+        "ecomm",
+        -0.064
+      ],
+      [
+        "eteam",
+        -0.03
+      ],
+      [
+        "ecuso",
+        -0.017
+      ],
+      [
+        "etra",
+        0.016
+      ]
+    ]
+  },
+  "cloy_models": {
+    "linear": {
+      "rmse": 0.089,
+      "mae": 0.076,
+      "r2": 0.805
+    },
+    "random_forest": {
+      "rmse": 0.084,
+      "mae": 0.069,
+      "r2": 0.828
+    }
+  },
+  "prod_models": {
+    "linear": {
+      "rmse": 56.634,
+      "mae": 36.904,
+      "r2": -0.225
+    },
+    "random_forest": {
+      "rmse": 63.509,
+      "mae": 40.958,
+      "r2": -0.541
+    }
+  },
+  "cluster": {
+    "best_k": 3,
+    "silhouette": 0.234,
+    "sizes": {
+      "0": 34,
+      "1": 28,
+      "2": 23
+    },
+    "centroids": {
+      "employee_index": {
+        "0": 3.296,
+        "1": 3.537,
+        "2": 3.277
+      },
+      "customer_index": {
+        "0": 3.189,
+        "1": 3.384,
+        "2": 3.205
+      },
+      "prod": {
+        "0": 335.618,
+        "1": 295.321,
+        "2": 243.652
+      },
+      "teltr": {
+        "0": 4355.618,
+        "1": 4243.143,
+        "2": 3493.739
+      }
+    }
+  }
+}
