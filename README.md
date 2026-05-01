@@ -6,7 +6,7 @@ Repository: https://github.com/puppalabejjanapala193-ship-it/ncb-employee-custom
 Code for the analysis pipeline used in the NCB employee-customer-performance study. This repository intentionally excludes reports, proposals, and class materials.
 
 ## Repository Structure
-- analysis.py: analysis pipeline for models, tables, and figures
+- analysis.ipynb: analysis pipeline notebook for models, tables, and figures
 - requirements.txt: Python dependencies
 
 ## Data Requirements
@@ -18,8 +18,9 @@ This file is not stored in the repo.
 ## Run
 1. Install dependencies:
    - pip install -r requirements.txt
-2. Run the analysis:
-   - python analysis.py
+2. Open the notebook:
+   - analysis.ipynb
+3. Run all cells in order.
 
 ## Outputs
 The script writes plots and summary tables to a local figures/ folder. This folder is not tracked in git.
