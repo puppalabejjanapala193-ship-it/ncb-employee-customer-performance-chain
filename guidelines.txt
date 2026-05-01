@@ -1,0 +1,105 @@
+QNT 730: Business Data Mining Term Project Guidelines
+QNT 730: Business Data Mining
+Term Project Guidelines
+Prof. Reuben B. Marfo | Spring 2026
+1. Overview
+The term project is a major component of this course and is designed to give you hands-on experience
+applying data mining and machine learning techniques to real business problems. You will
+work in teams (2 students unless otherwise approved). This project requires technical rigor, clear
+business framing, and professional presentation.
+2. Project Timeline & Requirements
+2.1 Step 1: Topic & Dataset Selection
+Due: (02/23)
+Each team must:
+• Identify a clearly defined business problem
+• Select an appropriate and reasonably sized dataset
+• Post a brief description (1 paragraph) via the Blackboard discussion board
+You are encouraged to use publicly available datasets (Kaggle, UCI, government data, etc.) or
+work-related datasets (if permitted and anonymized). Ensure you understand the business context
+behind the data.
+2.2 Step 2: Project Proposal
+Due: (03/30)
+Submit a 1–2 page proposal including:
+1. Business Problem Statement
+2. Dataset Description
+3. Proposed Data Mining Techniques (e.g., classification, clustering, regression, association
+rules, neural networks)
+4. Evaluation Plan
+• Metrics (e.g., Accuracy, AUC, F1, RMSE, MAE)
+• Validation strategy (Train/Test split, Cross-validation)
+5. At least two academic or practitioner references
+Note: You are strongly encouraged to discuss your proposal with me before submitting.
+1
+QNT 730: Business Data Mining Term Project Guidelines
+2.3 Step 3: Final Term Paper
+Due: ( 04/30)
+Submit one final paper per team.
+Paper Requirements
+• Length: 15–20 pages, 1.5 spacing
+• Professional formatting and writing
+• Must include the sections below (as applicable):
+– Abstract
+– Introduction & Business Context
+– Literature Review / Related Work
+– Data & Preprocessing
+– Methodology (models, features, training procedure)
+– Results & Model Comparison
+– Model Evaluation & Validation
+– Business Implications (what decisions change based on results)
+– Limitations
+– Conclusion
+– References
+• Include well-labeled figures and tables
+• Include a reproducibility appendix (code, parameters, and instructions)
+If your project includes a dashboard, deployed model, GitHub repository, or HTML-based interface,
+include a link in your submission.
+3. Grading Breakdown
+• Project Proposal: 20%
+• Final Term Paper: 70%
+• Peer Evaluation: 10%
+Each student must email confidential feedback on their teammates by the last day of class. I reserve
+the right to adjust individual grades based on contribution.
+4. Project Types
+4.1 Option A: Applied Business Data Project
+Address a real business problem using data mining techniques. Example topics include:
+2
+QNT 730: Business Data Mining Term Project Guidelines
+• Customer churn prediction
+• Credit risk modeling
+• Fraud detection
+• Customer segmentation
+• Recommendation systems
+• Sales forecasting
+• Text mining / sentiment analysis
+4.2 Option B: Replication & Extension Study
+Replicate a published study (journal article or textbook case) and extend it using:
+• A new dataset
+• A different modeling technique
+• Improved validation methods
+• Comparative model evaluation
+Your final report should follow the structure of a professional analytics paper.
+5. Technical Expectations
+I expect:
+• Clean data preprocessing and documentation
+• Feature engineering
+• Comparison of at least two modeling approaches
+• Proper validation (holdout and/or cross-validation as appropriate)
+• Interpretation of results (not just model output)
+• Clear connection between analytics and business decision-making
+This is not just a coding exercise; it is an analytics problem-solving exercise.
+6. Tools
+You may use:
+• Python (preferred)
+• R
+• SQL
+• Tableau / Power BI (if appropriate)
+• Jupyter Notebook (recommended)
+3
+QNT 730: Business Data Mining Term Project Guidelines
+All code must be reproducible.
+7. Academic Integrity
+All work must be original. You may reference external resources but must properly cite them.
+Generative AI tools may be used for assistance, but not to replace your analysis, experimentation,
+or critical thinking.
+Submission: All submissions will be made via Blackboard (unless otherwise announced).
+4
